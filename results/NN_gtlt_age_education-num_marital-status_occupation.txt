@@ -1,0 +1,392 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     adult_data_no_missing_no_missing-weka.filters.unsupervised.attribute.Remove-R2-4,8-14
+Instances:    29988
+Attributes:   5
+              age
+               education-num
+               marital-status
+               occupation
+               gtlt
+Test mode:3-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.503689719023899
+    Node 2    -0.6759130836692071
+    Node 3    -1.0721712366518288
+    Node 4    -0.48501003382992747
+    Node 5    -0.432136687390856
+    Node 6    -0.9600145998584985
+    Node 7    -1.1309407922175694
+    Node 8    -0.7771584126638896
+    Node 9    -1.0615003224889674
+    Node 10    -2.3511136655363023
+    Node 11    -1.0597595324158204
+    Node 12    -0.8992772238927286
+    Node 13    -0.5506494336461181
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.503689719023899
+    Node 2    0.6759130836692072
+    Node 3    1.0721712366518295
+    Node 4    0.48501003382992736
+    Node 5    0.432136687390855
+    Node 6    0.9600145998584989
+    Node 7    1.1309407922175674
+    Node 8    0.77715841266389
+    Node 9    1.0615003224889676
+    Node 10    2.351113665536303
+    Node 11    1.0597595324158204
+    Node 12    0.8992772238927292
+    Node 13    0.5506494336461175
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.25001963926309334
+    Attrib age    35.88803519912494
+    Attrib  education-num    -7.32273968897887
+    Attrib  marital-status= Married-civ-spouse    2.2522788975566566
+    Attrib  marital-status= Never-married    -1.0599745044101112
+    Attrib  marital-status= Divorced    -0.40719923596987806
+    Attrib  marital-status= Separated    5.030574770081424
+    Attrib  marital-status= Married-spouse-absent    -2.4017772963306743
+    Attrib  marital-status= Widowed    -2.1679252385572862
+    Attrib  marital-status= Married-AF-spouse    -0.2086146076703957
+    Attrib  occupation= Farming-fishing    7.571817789240285
+    Attrib  occupation= Sales    5.888124897898966
+    Attrib  occupation= Prof-specialty    -3.827812528299751
+    Attrib  occupation= Craft-repair    -2.8024916735781393
+    Attrib  occupation= Other-service    4.101639135589117
+    Attrib  occupation= Transport-moving    1.4866837665071355
+    Attrib  occupation= Exec-managerial    -2.130084164384301
+    Attrib  occupation= Priv-house-serv    3.4837736696459602
+    Attrib  occupation= Protective-serv    -1.2687201942555522
+    Attrib  occupation= Tech-support    -2.469332057034897
+    Attrib  occupation= Machine-op-inspct    -3.485142594476988
+    Attrib  occupation= Handlers-cleaners    -6.2795948137826
+    Attrib  occupation= Adm-clerical    2.072036558921806
+    Attrib  occupation= Armed-Forces    0.13385430052214245
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.14463695577646102
+    Attrib age    -8.081435963136725
+    Attrib  education-num    -26.11225304523876
+    Attrib  marital-status= Married-civ-spouse    -9.994164571487747
+    Attrib  marital-status= Never-married    1.943377080925506
+    Attrib  marital-status= Divorced    8.898999616855363
+    Attrib  marital-status= Separated    4.660624671196822
+    Attrib  marital-status= Married-spouse-absent    5.594403430741693
+    Attrib  marital-status= Widowed    -3.0551138485469864
+    Attrib  marital-status= Married-AF-spouse    -8.709553620698758
+    Attrib  occupation= Farming-fishing    1.4537730444297066
+    Attrib  occupation= Sales    -3.460715721815894
+    Attrib  occupation= Prof-specialty    -0.868452307199273
+    Attrib  occupation= Craft-repair    1.328955285758595
+    Attrib  occupation= Other-service    -5.730297441428256
+    Attrib  occupation= Transport-moving    2.1009994108578045
+    Attrib  occupation= Exec-managerial    -4.0421570221690235
+    Attrib  occupation= Priv-house-serv    0.28094223083131575
+    Attrib  occupation= Protective-serv    -6.3329629075696205
+    Attrib  occupation= Tech-support    1.6187108787582032
+    Attrib  occupation= Machine-op-inspct    2.8541793202266406
+    Attrib  occupation= Handlers-cleaners    2.5023083295328292
+    Attrib  occupation= Adm-clerical    6.665526586672702
+    Attrib  occupation= Armed-Forces    0.005293341000880305
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.7291459945674692
+    Attrib age    -29.501292367236665
+    Attrib  education-num    -14.101753522243277
+    Attrib  marital-status= Married-civ-spouse    -2.9112124786817755
+    Attrib  marital-status= Never-married    6.217796552942047
+    Attrib  marital-status= Divorced    -2.5501453919219976
+    Attrib  marital-status= Separated    -1.6993759862705184
+    Attrib  marital-status= Married-spouse-absent    6.9371861008276365
+    Attrib  marital-status= Widowed    5.7023430197649425
+    Attrib  marital-status= Married-AF-spouse    -8.181121305939278
+    Attrib  occupation= Farming-fishing    0.9043695352289232
+    Attrib  occupation= Sales    -1.1111370029687273
+    Attrib  occupation= Prof-specialty    -1.9465070848279074
+    Attrib  occupation= Craft-repair    0.13376710426079044
+    Attrib  occupation= Other-service    1.1998836523794656
+    Attrib  occupation= Transport-moving    -4.741885302219452
+    Attrib  occupation= Exec-managerial    0.8280781553665473
+    Attrib  occupation= Priv-house-serv    0.5258003686565982
+    Attrib  occupation= Protective-serv    -5.902951222796743
+    Attrib  occupation= Tech-support    8.504204282226127
+    Attrib  occupation= Machine-op-inspct    -3.2330421806644165
+    Attrib  occupation= Handlers-cleaners    5.2316741486891
+    Attrib  occupation= Adm-clerical    5.866180161086726
+    Attrib  occupation= Armed-Forces    2.2048037811066687
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.5973939422111194
+    Attrib age    -49.10046154766599
+    Attrib  education-num    -1.6987148661368638
+    Attrib  marital-status= Married-civ-spouse    3.8653505886427926
+    Attrib  marital-status= Never-married    4.539500712363582
+    Attrib  marital-status= Divorced    6.520514897706229
+    Attrib  marital-status= Separated    -1.8781471996923487
+    Attrib  marital-status= Married-spouse-absent    -1.0782984111242664
+    Attrib  marital-status= Widowed    3.3941529012785154
+    Attrib  marital-status= Married-AF-spouse    -7.509899561036399
+    Attrib  occupation= Farming-fishing    3.06960733925786
+    Attrib  occupation= Sales    -0.487969273514367
+    Attrib  occupation= Prof-specialty    -3.3449003663237926
+    Attrib  occupation= Craft-repair    3.9037675803684833
+    Attrib  occupation= Other-service    3.756107916249444
+    Attrib  occupation= Transport-moving    6.094339473628841
+    Attrib  occupation= Exec-managerial    -6.915183161063113
+    Attrib  occupation= Priv-house-serv    3.2844040689795198
+    Attrib  occupation= Protective-serv    -1.6600426210263561
+    Attrib  occupation= Tech-support    -0.09687106611850582
+    Attrib  occupation= Machine-op-inspct    -0.9958109944505169
+    Attrib  occupation= Handlers-cleaners    12.228089833619954
+    Attrib  occupation= Adm-clerical    -2.0914028497610984
+    Attrib  occupation= Armed-Forces    2.2686082613422855
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    3.07434659639023
+    Attrib age    -2.9083793870484778
+    Attrib  education-num    -38.752866721084914
+    Attrib  marital-status= Married-civ-spouse    -14.131340225993213
+    Attrib  marital-status= Never-married    -0.3324329632932939
+    Attrib  marital-status= Divorced    -0.4220581264623173
+    Attrib  marital-status= Separated    -2.5757823783347313
+    Attrib  marital-status= Married-spouse-absent    4.401744339991374
+    Attrib  marital-status= Widowed    5.347621982889268
+    Attrib  marital-status= Married-AF-spouse    -7.56579802320722
+    Attrib  occupation= Farming-fishing    5.478294825975825
+    Attrib  occupation= Sales    -3.7454796665017
+    Attrib  occupation= Prof-specialty    -12.494292013108343
+    Attrib  occupation= Craft-repair    -12.715478026516669
+    Attrib  occupation= Other-service    5.85075113891474
+    Attrib  occupation= Transport-moving    8.536692011221632
+    Attrib  occupation= Exec-managerial    -14.333441562194361
+    Attrib  occupation= Priv-house-serv    -0.7996282796602875
+    Attrib  occupation= Protective-serv    -4.490671218227553
+    Attrib  occupation= Tech-support    -12.56651959236129
+    Attrib  occupation= Machine-op-inspct    2.2913745426113596
+    Attrib  occupation= Handlers-cleaners    2.8547415204859217
+    Attrib  occupation= Adm-clerical    3.25592267293544
+    Attrib  occupation= Armed-Forces    -3.6758000493588883
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.3226774980006416
+    Attrib age    -4.079689526972594
+    Attrib  education-num    -11.114035781644784
+    Attrib  marital-status= Married-civ-spouse    -8.175741470332797
+    Attrib  marital-status= Never-married    -3.543504029006113
+    Attrib  marital-status= Divorced    -0.49731825431087123
+    Attrib  marital-status= Separated    4.823271382902681
+    Attrib  marital-status= Married-spouse-absent    4.523598623349396
+    Attrib  marital-status= Widowed    4.644819634801911
+    Attrib  marital-status= Married-AF-spouse    -0.11656790084083923
+    Attrib  occupation= Farming-fishing    -1.9020771142309356
+    Attrib  occupation= Sales    -2.3774245073394615
+    Attrib  occupation= Prof-specialty    -0.9198734047698459
+    Attrib  occupation= Craft-repair    -3.5936603291706017
+    Attrib  occupation= Other-service    1.1667597329702866
+    Attrib  occupation= Transport-moving    -2.88758279654984
+    Attrib  occupation= Exec-managerial    0.9611914320948872
+    Attrib  occupation= Priv-house-serv    -1.4294363020915397
+    Attrib  occupation= Protective-serv    -3.2768542257681847
+    Attrib  occupation= Tech-support    1.8204868781554946
+    Attrib  occupation= Machine-op-inspct    2.797343646284262
+    Attrib  occupation= Handlers-cleaners    4.779032938455711
+    Attrib  occupation= Adm-clerical    8.485347375732665
+    Attrib  occupation= Armed-Forces    0.3941536104102004
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    1.5525494556872468
+    Attrib age    20.955351033929578
+    Attrib  education-num    -32.297723339364296
+    Attrib  marital-status= Married-civ-spouse    -6.825767222311858
+    Attrib  marital-status= Never-married    0.4157481805269186
+    Attrib  marital-status= Divorced    6.773971523121512
+    Attrib  marital-status= Separated    2.9958510998886836
+    Attrib  marital-status= Married-spouse-absent    -3.8498703396585348
+    Attrib  marital-status= Widowed    5.476428596401935
+    Attrib  marital-status= Married-AF-spouse    -12.83652805970814
+    Attrib  occupation= Farming-fishing    -0.9727026433546945
+    Attrib  occupation= Sales    -10.048520155877194
+    Attrib  occupation= Prof-specialty    -3.264296783520892
+    Attrib  occupation= Craft-repair    2.5986434015872963
+    Attrib  occupation= Other-service    3.3658760774917105
+    Attrib  occupation= Transport-moving    3.1607849682422797
+    Attrib  occupation= Exec-managerial    0.4468424528078081
+    Attrib  occupation= Priv-house-serv    0.9144683707195611
+    Attrib  occupation= Protective-serv    -7.111029025775658
+    Attrib  occupation= Tech-support    -10.49010211393223
+    Attrib  occupation= Machine-op-inspct    2.6633243102500836
+    Attrib  occupation= Handlers-cleaners    6.410862014974024
+    Attrib  occupation= Adm-clerical    -6.3703960350532265
+    Attrib  occupation= Armed-Forces    0.006686270989989312
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -1.6769217263977518
+    Attrib age    -37.4063063851703
+    Attrib  education-num    -5.571841280113703
+    Attrib  marital-status= Married-civ-spouse    1.5918622734405283
+    Attrib  marital-status= Never-married    2.229531105403615
+    Attrib  marital-status= Divorced    6.727253237253521
+    Attrib  marital-status= Separated    -1.1637002393077214
+    Attrib  marital-status= Married-spouse-absent    2.1563198798251717
+    Attrib  marital-status= Widowed    0.5993958716958503
+    Attrib  marital-status= Married-AF-spouse    -3.627862437425302
+    Attrib  occupation= Farming-fishing    -1.1111163681951954
+    Attrib  occupation= Sales    1.4861727426678202
+    Attrib  occupation= Prof-specialty    0.5490622021286775
+    Attrib  occupation= Craft-repair    3.4157104338175603
+    Attrib  occupation= Other-service    2.9529294815693024
+    Attrib  occupation= Transport-moving    -3.470000436391698
+    Attrib  occupation= Exec-managerial    4.056514297709839
+    Attrib  occupation= Priv-house-serv    2.518562062442872
+    Attrib  occupation= Protective-serv    -2.7645902640082256
+    Attrib  occupation= Tech-support    2.098106621385289
+    Attrib  occupation= Machine-op-inspct    1.90207849526027
+    Attrib  occupation= Handlers-cleaners    3.7974925531882135
+    Attrib  occupation= Adm-clerical    0.057529517921806606
+    Attrib  occupation= Armed-Forces    5.113210575061299
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.17713666127501476
+    Attrib age    11.941125517461161
+    Attrib  education-num    -10.171629136915922
+    Attrib  marital-status= Married-civ-spouse    -4.532997206142424
+    Attrib  marital-status= Never-married    -0.2858192180297267
+    Attrib  marital-status= Divorced    1.2534869487452516
+    Attrib  marital-status= Separated    5.169201019703505
+    Attrib  marital-status= Married-spouse-absent    4.461395123713948
+    Attrib  marital-status= Widowed    -2.793988000640817
+    Attrib  marital-status= Married-AF-spouse    -2.177327053389736
+    Attrib  occupation= Farming-fishing    -2.7074026545969203
+    Attrib  occupation= Sales    -0.927351502349402
+    Attrib  occupation= Prof-specialty    -3.743055596488852
+    Attrib  occupation= Craft-repair    -3.9096212591570576
+    Attrib  occupation= Other-service    4.784548309889779
+    Attrib  occupation= Transport-moving    -2.3475790375350503
+    Attrib  occupation= Exec-managerial    -3.1995263626455195
+    Attrib  occupation= Priv-house-serv    7.462400572266256
+    Attrib  occupation= Protective-serv    2.429158887992361
+    Attrib  occupation= Tech-support    -2.540075179799603
+    Attrib  occupation= Machine-op-inspct    3.835818196532726
+    Attrib  occupation= Handlers-cleaners    1.1577969059548774
+    Attrib  occupation= Adm-clerical    2.0804000493072987
+    Attrib  occupation= Armed-Forces    0.19006626962814627
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.5421884090561147
+    Attrib age    -20.416163560104316
+    Attrib  education-num    -16.796345426747088
+    Attrib  marital-status= Married-civ-spouse    -8.031179633620733
+    Attrib  marital-status= Never-married    11.726367340395681
+    Attrib  marital-status= Divorced    -8.601856025394833
+    Attrib  marital-status= Separated    6.260104758703222
+    Attrib  marital-status= Married-spouse-absent    1.5771834437273855
+    Attrib  marital-status= Widowed    4.379388216973919
+    Attrib  marital-status= Married-AF-spouse    -4.74293433542288
+    Attrib  occupation= Farming-fishing    2.6279412393888464
+    Attrib  occupation= Sales    -5.046850470393679
+    Attrib  occupation= Prof-specialty    4.610561833505338
+    Attrib  occupation= Craft-repair    -0.5824390727490328
+    Attrib  occupation= Other-service    -4.028673800639471
+    Attrib  occupation= Transport-moving    8.577994853462394
+    Attrib  occupation= Exec-managerial    -4.28463824844341
+    Attrib  occupation= Priv-house-serv    -0.5196443950678696
+    Attrib  occupation= Protective-serv    7.296157068740966
+    Attrib  occupation= Tech-support    -1.579097266802799
+    Attrib  occupation= Machine-op-inspct    -1.5162569662888732
+    Attrib  occupation= Handlers-cleaners    2.6267994702008624
+    Attrib  occupation= Adm-clerical    -2.598461898253512
+    Attrib  occupation= Armed-Forces    0.6561823566555762
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.7367887455478654
+    Attrib age    -22.706724826073366
+    Attrib  education-num    -26.56477928474377
+    Attrib  marital-status= Married-civ-spouse    2.3219918518042855
+    Attrib  marital-status= Never-married    -0.1147196184928387
+    Attrib  marital-status= Divorced    -10.876894436882317
+    Attrib  marital-status= Separated    2.1795681550472334
+    Attrib  marital-status= Married-spouse-absent    1.3602215589807705
+    Attrib  marital-status= Widowed    8.643447645410305
+    Attrib  marital-status= Married-AF-spouse    0.04010605421681585
+    Attrib  occupation= Farming-fishing    -2.1759929238797238
+    Attrib  occupation= Sales    -0.332816976813124
+    Attrib  occupation= Prof-specialty    7.405266058312592
+    Attrib  occupation= Craft-repair    13.586076624053309
+    Attrib  occupation= Other-service    -1.8989481369236616
+    Attrib  occupation= Transport-moving    -7.876001378175002
+    Attrib  occupation= Exec-managerial    2.698807683521366
+    Attrib  occupation= Priv-house-serv    -0.046038139817138536
+    Attrib  occupation= Protective-serv    0.7236508965505943
+    Attrib  occupation= Tech-support    -5.018385259917434
+    Attrib  occupation= Machine-op-inspct    8.760404388588826
+    Attrib  occupation= Handlers-cleaners    -4.576066614121165
+    Attrib  occupation= Adm-clerical    -3.8378372079407135
+    Attrib  occupation= Armed-Forces    1.0615262272852328
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    1.312742145925891
+    Attrib age    21.64699839978279
+    Attrib  education-num    -20.542657944057996
+    Attrib  marital-status= Married-civ-spouse    -9.764461166439457
+    Attrib  marital-status= Never-married    1.796037056441249
+    Attrib  marital-status= Divorced    3.5670691892788224
+    Attrib  marital-status= Separated    2.5247694812103973
+    Attrib  marital-status= Married-spouse-absent    4.734989851899557
+    Attrib  marital-status= Widowed    1.2339228111481717
+    Attrib  marital-status= Married-AF-spouse    -10.614298408923311
+    Attrib  occupation= Farming-fishing    12.547312843099027
+    Attrib  occupation= Sales    -2.5152910520174965
+    Attrib  occupation= Prof-specialty    -1.8486446848350477
+    Attrib  occupation= Craft-repair    -3.370430153135019
+    Attrib  occupation= Other-service    8.921238986307927
+    Attrib  occupation= Transport-moving    -4.505139794390984
+    Attrib  occupation= Exec-managerial    -9.446357714110642
+    Attrib  occupation= Priv-house-serv    3.1174149122859998
+    Attrib  occupation= Protective-serv    1.2405732080068486
+    Attrib  occupation= Tech-support    -4.978943252802131
+    Attrib  occupation= Machine-op-inspct    -4.2659764505972735
+    Attrib  occupation= Handlers-cleaners    -1.3741270887309667
+    Attrib  occupation= Adm-clerical    -7.659380366114946
+    Attrib  occupation= Armed-Forces    -1.1237321204731785
+Class  >50K
+    Input
+    Node 0
+Class  <=50K
+    Input
+    Node 1
+
+
+Time taken to build model: 320.2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       24668               82.2596 %
+Incorrectly Classified Instances      5320               17.7404 %
+Kappa statistic                          0.5049
+Mean absolute error                      0.227 
+Root mean squared error                  0.348 
+Relative absolute error                 61.3056 %
+Root relative squared error             80.8894 %
+Total Number of Instances            29988     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.591     0.102      0.653     0.591     0.62       0.873     >50K
+                 0.898     0.409      0.871     0.898     0.884      0.873     <=50K
+Weighted Avg.    0.823     0.334      0.818     0.823     0.82       0.873
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  4345  3009 |     a =  >50K
+  2311 20323 |     b =  <=50K
+
