@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -U -M 2
+Relation:     adult_data_no_missing_no_missing-weka.filters.unsupervised.attribute.Remove-R1-5,7,9-14
+Instances:    29988
+Attributes:   3
+               marital-status
+               relationship
+               gtlt
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+ relationship =  Husband:  <=50K (12341.0/5562.0)
+ relationship =  Not-in-family:  <=50K (7699.0/802.0)
+ relationship =  Own-child:  <=50K (4460.0/62.0)
+ relationship =  Unmarried:  <=50K (3204.0/209.0)
+ relationship =  Wife
+|    marital-status =  Married-civ-spouse:  <=50K (1385.0/678.0)
+|    marital-status =  Never-married:  <=50K (0.0)
+|    marital-status =  Divorced:  <=50K (0.0)
+|    marital-status =  Separated:  <=50K (0.0)
+|    marital-status =  Married-spouse-absent:  <=50K (0.0)
+|    marital-status =  Widowed:  <=50K (0.0)
+|    marital-status =  Married-AF-spouse:  >50K (10.0/4.0)
+ relationship =  Other-relative:  <=50K (889.0/35.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	14
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances       22636               75.4835 %
+Incorrectly Classified Instances      7352               24.5165 %
+Kappa statistic                          0.001 
+Mean absolute error                      0.2943
+Root mean squared error                  0.3836
+Relative absolute error                 79.4914 %
+Root relative squared error             89.159  %
+Total Number of Instances            29988     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.001     0          0.6       0.001     0.002      0.778     >50K
+                 1         0.999      0.755     1         0.86       0.778     <=50K
+Weighted Avg.    0.755     0.754      0.717     0.755     0.65       0.778
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+     6  7348 |     a =  >50K
+     4 22630 |     b =  <=50K
+
