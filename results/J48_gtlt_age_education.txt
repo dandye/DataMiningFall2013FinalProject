@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     adult_data_no_missing_no_missing-weka.filters.unsupervised.attribute.Remove-R2-3,5-14
+Instances:    29988
+Attributes:   3
+              age
+               education
+               gtlt
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ education =  Some-college:  <=50K (6659.0/1324.0)
+ education =  Prof-school
+|   age <= 30:  <=50K (57.0/13.0)
+|   age > 30:  >50K (440.0/92.0)
+ education =  Doctorate
+|   age <= 32:  <=50K (37.0/14.0)
+|   age > 32:  >50K (326.0/72.0)
+ education =  HS-grad:  <=50K (9809.0/1594.0)
+ education =  Masters
+|   age <= 34:  <=50K (339.0/112.0)
+|   age > 34
+|   |   age <= 63:  >50K (1210.0/446.0)
+|   |   age > 63:  <=50K (61.0/25.0)
+ education =  11th:  <=50K (1048.0/59.0)
+ education =  Assoc-acdm:  <=50K (1007.0/256.0)
+ education =  Bachelors
+|   age <= 36:  <=50K (2402.0/656.0)
+|   age > 36
+|   |   age <= 62:  >50K (2426.0/1074.0)
+|   |   age > 62:  <=50K (174.0/77.0)
+ education =  10th:  <=50K (818.0/57.0)
+ education =  Assoc-voc:  <=50K (1305.0/343.0)
+ education =  9th:  <=50K (454.0/24.0)
+ education =  7th-8th:  <=50K (557.0/35.0)
+ education =  12th:  <=50K (375.0/29.0)
+ education =  1st-4th:  <=50K (151.0/6.0)
+ education =  5th-6th:  <=50K (288.0/12.0)
+ education =  Preschool:  <=50K (45.0)
+
+Number of Leaves  : 	22
+
+Size of the tree : 	29
+
+
+Time taken to build model: 0.26 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       23597               78.6881 %
+Incorrectly Classified Instances      6391               21.3119 %
+Kappa statistic                          0.3362
+Mean absolute error                      0.3131
+Root mean squared error                  0.3961
+Relative absolute error                 84.5752 %
+Root relative squared error             92.0755 %
+Total Number of Instances            29988     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.369     0.077      0.608     0.369     0.459      0.716     >50K
+                 0.923     0.631      0.818     0.923     0.867      0.716     <=50K
+Weighted Avg.    0.787     0.495      0.767     0.787     0.767      0.716
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  2713  4641 |     a =  >50K
+  1750 20884 |     b =  <=50K

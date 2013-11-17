@@ -1,0 +1,65 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     adult_data_no_missing_no_missing-weka.filters.unsupervised.attribute.Remove-R2-4,6-14
+Instances:    29988
+Attributes:   3
+              age
+               education-num
+               gtlt
+Test mode:2-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ education-num <= 12:  <=50K (22516.0/3739.0)
+ education-num > 12
+|    education-num <= 14
+|   |   age <= 35
+|   |   |    education-num <= 13:  <=50K (2241.0/582.0)
+|   |   |    education-num > 13
+|   |   |   |   age <= 34:  <=50K (339.0/112.0)
+|   |   |   |   age > 34:  >50K (43.0/14.0)
+|   |   age > 35
+|   |   |   age <= 63:  >50K (3783.0/1608.0)
+|   |   |   age > 63:  <=50K (206.0/88.0)
+|    education-num > 14
+|   |   age <= 31
+|   |   |   age <= 30:  <=50K (77.0/19.0)
+|   |   |   age > 30:  >50K (24.0/11.0)
+|   |   age > 31:  >50K (759.0/162.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	17
+
+
+Time taken to build model: 0.36 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       23586               78.6515 %
+Incorrectly Classified Instances      6402               21.3485 %
+Kappa statistic                          0.348 
+Mean absolute error                      0.3174
+Root mean squared error                  0.3988
+Relative absolute error                 85.734  %
+Root relative squared error             92.6906 %
+Total Number of Instances            29988     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.394     0.086      0.598     0.394     0.475      0.674     >50K
+                 0.914     0.606      0.823     0.914     0.866      0.674     <=50K
+Weighted Avg.    0.787     0.479      0.768     0.787     0.77       0.674
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  2895  4459 |     a =  >50K
+  1943 20691 |     b =  <=50K
+
